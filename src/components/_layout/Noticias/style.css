@@ -1,0 +1,9 @@
+@media (max-width:720px){
+
+    #todas-noticias{
+        flex-direction: column !important;
+    }
+    #todas-noticias .card{
+        width: 100% !important;
+    }
+}

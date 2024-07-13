@@ -1,0 +1,40 @@
+#noticias-recentes{
+    min-height: 500px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px #ccc;
+    padding:12px;
+}
+.title{
+    font-weight: bold;
+}
+#noticias{
+    display: flex;
+    width: 100%;
+    gap:4px;
+}
+
+.noticia{
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.noticia:hover{
+    transform: scale(0.9);    
+}
+
+.noticia-content{
+    height: 100%;
+    padding:10px;
+}
+
+.capa{
+    background-color: rgba(35, 35, 35,0.4) !important;
+}
+
+@media (max-width:480px) {
+    #noticias-recentes .card-body{
+        flex-direction: column !important;
+    }    
+    #noticias-recentes #noticias{
+        overflow: auto;
+    }
+}

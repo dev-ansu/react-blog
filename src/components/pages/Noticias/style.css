@@ -1,0 +1,17 @@
+#leitor{
+    margin:0 auto;
+    max-width: 75%;
+    min-height: 100vh;
+}
+.subtitulo{
+    color:rgb(90, 86, 86);
+}
+
+@media (max-width:720px) {
+    #leitor{
+        max-width: 100% !important;
+    }
+    #leitor .content{
+        font-size: 18px !important;
+    }
+}
